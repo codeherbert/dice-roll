@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Die from "./Die";
+import RollDice from "./RollDice";
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        < Die face="three" />      
-        < Die face="four" />      
-        < Die face="five" />      
-        < Die face="six" />      
+        <RollDice />     
       </div>
     );
   }
